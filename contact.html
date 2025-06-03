@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | SkillLinker</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-section {
+            max-width: 420px;
+            margin: 3rem auto;
+            background: #fff;
+            border-radius: 18px;
+            padding: 2.5rem 2rem 2rem 2rem;
+            box-shadow: 0 4px 32px rgba(58,141,222,0.10);
+            text-align: center;
+        }
+        .contact-section h2 {
+            margin-bottom: 1.5rem;
+            color: #3a8dde;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+        }
+        .contact-form label {
+            text-align: left;
+            font-weight: 500;
+            color: #3a8dde;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            padding: 0.8rem;
+            border-radius: 8px;
+            border: 1.5px solid #b3c6e0;
+            font-size: 1.08rem;
+            background: #f8faff;
+            transition: border 0.2s;
+        }
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            border: 1.5px solid #3a8dde;
+            outline: none;
+        }
+        .contact-form button {
+            background: linear-gradient(90deg, #3a8dde 0%, #6f6ee8 100%);
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 0.9rem 1.2rem;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+            cursor: not-allowed;
+            opacity: 0.7;
+            box-shadow: 0 2px 8px rgba(58,141,222,0.10);
+        }
+        .contact-note {
+            color: #888;
+            font-size: 0.98rem;
+            margin-top: 1.2rem;
+        }
+        .contact-info {
+            margin-top: 2rem;
+            color: #3a8dde;
+            font-size: 1.05rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-area">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="SkillLinker Logo" class="logo">
+            <span class="brand-name">SkillLinker</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="inbox.html">Inbox</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="login.html">Login/Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <p>Have questions, feedback, or want to partner with us? Reach out below!</p>
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="you@email.com" required>
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Your message..." required></textarea>
+                <button type="submit" disabled>Send (Demo)</button>
+            </form>
+            <p class="contact-note">* Contact form is for demo purposes only.</p>
+            <div class="contact-info">
+                <p><b>Email:</b> support@skilllinker.com</p>
+                <p><b>Phone:</b> +27 21 123 4567</p>
+                <p><b>Office:</b> 123 Main Street, Johannesburg, South Africa</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="profile.html">Profile</a>
+        </div>
+        <div class="footer-social">
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="LinkedIn"></a>
+        </div>
+        <p>&copy; 2025 SkillLinker. All rights reserved. | Celebrating 5 years of community</p>
+    </footer>
+</body>
+</html>

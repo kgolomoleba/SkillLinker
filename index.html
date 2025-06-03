@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillLinker | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-area">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="SkillLinker Logo" class="logo">
+            <span class="brand-name">SkillLinker</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="inbox.html">Inbox</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login/Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Connect. Share. Grow.</h1>
+                <p>SkillLinker empowers <b>over 50,000 users</b> to offer their skills, find trusted professionals, and build lasting connections—locally and online.</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="What service do you need? (e.g. plumber, tutor)" disabled>
+                    <button disabled>Search</button>
+                </div>
+                <a href="#feed" class="btn-primary">Explore the Community</a>
+            </div>
+            <img class="hero-img" src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=800&q=80" alt="People collaborating and sharing skills">
+        </section>
+
+        <!-- Platform Stats -->
+        <section class="stats">
+            <div class="stat-card">
+                <h3>50,000+</h3>
+                <p>Active Members</p>
+            </div>
+            <div class="stat-card">
+                <h3>120,000+</h3>
+                <p>Services Exchanged</p>
+            </div>
+            <div class="stat-card">
+                <h3>4.9/5</h3>
+                <p>Average Rating</p>
+            </div>
+            <div class="stat-card">
+                <h3>5 Years</h3>
+                <p>Building Community</p>
+            </div>
+        </section>
+
+        <!-- Community Feed -->
+        <section id="feed" class="feed">
+            <h2>Community Feed</h2>
+            <div class="feed-list" id="feed-list">
+                <!-- Example Feed Cards -->
+                <div class="feed-card">
+                    <div class="feed-user">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Kgololosego Moleba">
+                        <div>
+                            <strong>Kgololosego Moleba</strong>
+                            <span>• Web Developer</span>
+                        </div>
+                    </div>
+                    <p class="feed-text">Offering: <b>Modern Websites & Web Apps</b>.<br>
+                        200+ happy clients! I build responsive, fast, and beautiful sites. <a href="#">#webdev</a> <a href="#">#business</a>
+                    </p>
+                    <img class="feed-img" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Web Developer at work">
+                    <div class="feed-actions">
+                        <button>👍 Like</button>
+                        <button>💬 Comment</button>
+                        <button>🔗 Share</button>
+                    </div>
+                </div>
+                <div class="feed-card">
+                    <div class="feed-user">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Lebo S.">
+                        <div>
+                            <strong>Lebo S.</strong>
+                            <span>• Music Teacher</span>
+                        </div>
+                    </div>
+                    <p class="feed-text">Offering: <b>Piano & Guitar Lessons</b>.<br>
+                        5 years teaching! Learn to play your favorite songs. <a href="#">#music</a> <a href="#">#lessons</a>
+                    </p>
+                    <img class="feed-img" src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=600&q=80" alt="Woman teaching piano to a child">
+                    <div class="feed-actions">
+                        <button>👍 Like</button>
+                        <button>💬 Comment</button>
+                        <button>🔗 Share</button>
+                    </div>
+                </div>
+                <!-- Add more feed cards as needed -->
+            </div>
+            <div class="feed-post-box">
+                <input type="text" id="feed-input" placeholder="Share what you offer or need... (Coming soon)" disabled>
+                <button disabled>Post</button>
+            </div>
+            <p class="feed-note">* Posting and commenting features coming soon!</p>
+        </section>
+
+        <!-- Services Grid -->
+        <section id="services">
+            <h2>Popular Services</h2>
+            <div class="service-listings">
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=400&q=80" alt="Web Developer at work">
+                    <h3>Web Development</h3>
+                    <p>Modern websites and web apps for your business or project.</p>
+                </div>
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Music teacher with student">
+                    <h3>Music Lessons</h3>
+                    <p>Piano, guitar, and vocal lessons for all ages and levels.</p>
+                </div>
+                <!-- Add more service cards as needed -->
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="how-it-works">
+            <h2>How It Works</h2>
+            <div class="how-steps">
+                <div class="how-step">
+                    <h3>1. Sign Up</h3>
+                    <p>Create your free SkillLinker account in seconds.</p>
+                </div>
+                <div class="how-step">
+                    <h3>2. Offer or Request</h3>
+                    <p>Post a service you offer or something you need.</p>
+                </div>
+                <div class="how-step">
+                    <h3>3. Connect & Chat</h3>
+                    <p>Message safely, agree on terms, and get started!</p>
+                </div>
+                <div class="how-step">
+                    <h3>4. Review & Grow</h3>
+                    <p>Leave feedback and help the community thrive.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <h2>What Our Users Say</h2>
+            <div class="testimonial-list">
+                <div class="testimonial-card">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Thandi M.">
+                    <blockquote>
+                        “I found a fantastic math tutor for my son in just two days. The platform is safe and easy to use!”
+                    </blockquote>
+                    <span>- Thandi M., Parent</span>
+                </div>
+                <div class="testimonial-card">
+                    <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Peter N.">
+                    <blockquote>
+                        “SkillLinker helped me grow my photography business. I’ve met amazing clients and collaborators here.”
+                    </blockquote>
+                    <span>- Peter N., Photographer</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Founder Section -->
+        <section class="founder">
+            <h2>Meet the Founder</h2>
+            <div class="profile">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Kgololosego Moleba">
+                <div>
+                    <h3>Kgololosego Moleba</h3>
+                    <p>Software Engineer & Founder of SkillLinker</p>
+                    <p>“I started SkillLinker to help people unlock opportunities, build trust, and make a difference in their communities. Thank you for being part of our journey!”</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <h2>Ready to offer or receive services?</h2>
+            <p>Sign up today and join a growing community of skilled professionals and clients.</p>
+            <a href="login.html" class="btn-primary">Join SkillLinker</a>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+            <a href="profile.html">Profile</a>
+        </div>
+        <div class="footer-social">
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="LinkedIn"></a>
+        </div>
+        <p>&copy; 2025 SkillLinker. All rights reserved. | Celebrating 5 years of community</p>
+    </footer>
+</body>
+</html>
