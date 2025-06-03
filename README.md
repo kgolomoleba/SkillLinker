@@ -1,55 +1,81 @@
-````markdown name=README.md
 # SkillLinker
 
-SkillLinker is a simple web-based service marketplace prototype. It allows users to discover, offer, and connect for a wide variety of services, from gardening and cooking to software development. This MVP is built with pure HTML, CSS, and JavaScript for easy customization and rapid prototyping.
+**Connect. Share. Grow.**
 
-## Features
+SkillLinker is a modern web platform that helps individuals showcase their skills, find trusted professionals, and connect with others for services and collaboration—both locally and online.
 
-- **Home Page:** Introduction and navigation
-- **Service Listings:** View a grid of available services, each with images and details
-- **Login/Register Demo:** Static authentication forms (demo only)
-- **Profile Pages:** Example provider and user profiles with service info and contact option
-- **Responsive Design:** Mobile-friendly layout using CSS Grid and Flexbox
-
-## How to Run
-
-1. **Clone or Download the Repository**
-2. **Place your images** in the project root (e.g., `gardener.jpg`, `developer.jpg`, etc.)
-3. **Open `index.html`** in any modern browser
-
-_No server or build process is required – it's a static site!_
-
-## Folder Structure
-
-```
-/
-├── index.html
-├── style.css
-├── main.js
-├── gardener.jpg
-├── developer.jpg
-├── cooking.jpg
-└── yourphoto.jpg
-```
-
-## Customization
-
-- **Add or edit service cards** in the `index.html` file under the Service Listings section.
-- **Update profile information and images** in the Profile and Provider Profile sections.
-- **Modify styles** in `style.css` as desired.
-
-## Roadmap
-
-- Add real user authentication and registration
-- Implement database for service listings and user data
-- Enable messaging and bookings between users
-- Add payment integration and reviews system
-
-## License
-
-This project is open source and free to use under the [MIT License](LICENSE).
+🌐 **Live Site**: [Visit SkillLinker](https://kgolomoleba.github.io/SkillLinker/)
 
 ---
 
-**SkillLinker** — Connect your skills. Find opportunities. Anywhere.
-````
+## 🚀 Features
+
+- 🌍 Clean and responsive homepage
+- 💬 Community feed with user posts and service offerings
+- 📊 Platform statistics to showcase impact
+- 🛠️ Popular services grid (e.g., Web Development, Music Lessons)
+- 📌 "How It Works" section for new users
+- 🌟 Testimonials from real users
+- 👤 Founder spotlight
+- 🔒 Login/Register page (UI ready)
+- 📱 Fully responsive on mobile, tablet, and desktop
+
+---
+
+## 📁 Folder Structure
+
+SkillLinker/
+│
+├── index.html # Main landing page
+├── about.html # About SkillLinker
+├── contact.html # Contact form (static)
+├── inbox.html # Placeholder for future messages
+├── login.html # Login/Register page
+├── profile.html # User profile layout
+├── style.css # Global styling for all pages
+└── assets/ # (Optional) Folder for images/icons
+
+yaml
+Copy
+Edit
+
+---
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- Responsive Design (Flexbox, Media Queries)
+- GitHub Pages for hosting
+
+---
+
+## 📌 Future Enhancements
+
+- Enable post and comment functionality
+- Backend integration (Node.js or Firebase)
+- User authentication system
+- Search and filtering features
+- Admin dashboard
+
+---
+
+## 👨‍💻 Author
+
+**Kgololosego Moleba**  
+📧 kgolomoleba@gmail.com  
+🔗 [GitHub Profile](https://github.com/kgolomoleba)  
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Acknowledgments
+
+- [Flaticon](https://www.flaticon.com/) for icons
+- [Unsplash](https://unsplash.com/) for free images
+- [RandomUser.me](https://randomuser.me/) for user profile pics
